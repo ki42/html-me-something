@@ -1,0 +1,98 @@
+/* http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126 License: none (public domain) */ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; } /* HTML5 display-role reset for older browsers */ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; } body { line-height: 1; } ol, ul { list-style: none; } blockquote, q { quotes: none; } blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; } table { border-collapse: collapse; border-spacing: 0; }
+
+#head {
+    background-color: mediumslateblue;
+    color:rgb(239, 207, 247);
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-family: Arial, sans-serif;
+    font-size: 1.3em;
+}
+body{
+    margin: 4em;  
+}
+
+img {
+    width: 600px;
+    height:500px;
+    margin-left: 8em;
+}
+h3{
+    font-weight: bold;
+    margin-left: 2em;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    background-color: mediumslateblue;
+    color:rgb(239, 207, 247);
+}
+
+#container {
+    width: 85%;
+    background-color: none;
+    margin-left: 4em;
+}
+#first {
+    width: 300px;
+    float: left;
+    height: 130px;
+        background-color:none;
+}
+#second {
+    width: 400px;
+    height: 125px;
+    float: left;
+    background-color: none;
+}
+#clear {
+    clear: both;
+}
+#hs {
+    width: 125px;
+    float: left;
+    height: 150px;
+}
+.photo_des {
+    text-indent: 10em;
+    font-family: sans-serif;
+    font-size: .9em;
+}
+p {
+    font-size: .8em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div p {
+    text-indent: 4em;
+}
+
+/*.photos {
+    text-indent: 4em;
+    align-content: center;
+    margin: 2em;
+}*/
+br {
+    line-break: auto;
+}
+div h3 {
+    padding: 1em;
+}
+footer {
+    background-color: mediumslateblue;
+    color:rgb(239, 207, 247);
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-family: Arial, sans-serif;
+    font-size: 1.3em;
+}
+a {
+    text-decoration:none;
+    color:blue;
+}
+a:hover {
+    color:purple;
+}
+
+#link {
+    text-align: center;
+}
